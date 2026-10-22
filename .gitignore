@@ -3,3 +3,17 @@ __pycache__/
 .env
 .env.local
 .env.*
+
+# ignorar bases de datos grandes
+**/.memoria/
+*.sqlite
+*.db
+*.sqlite3
+
+
+# ignorar bases de datos grandes
+**/.memoria/
+*.sqlite
+*.db
+*.sqlite3
+

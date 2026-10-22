@@ -1,0 +1,1985 @@
+{
+ "urls": {
+  "https://es.wikipedia.org/wiki/Monotone": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Monotone-0b70db.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/React": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/React-48caae.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Git": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Git-b374c8.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Software_regression": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Software-regression-65ebd7.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/0909.0151v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Forgetful-linear-systems-on-the-projective-space-and-rationa-642394.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/typicode/husky": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/typicode-husky-97bb88.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Virtualizaci%C3%B3n_a_nivel_de_sistema_operativo": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Virtualización-a-nivel-de-sistema-operativo-159873.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Docker_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Docker-software-855a93.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/KrakenD": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/KrakenD-cd1ce8.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2006.02932v3": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Vulnerability-Analysis-of-2500-Docker-Hub-Images-67dc11.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2305.11293v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Patterns-of-Multi-Container-Composition-for-Service-Orchestr-3babb1.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/docker/awesome-compose": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/docker-awesome-compose-4ca604.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/fastapi/full-stack-fastapi-template": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/fastapi-full-stack-fastapi-template-ef0b0b.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Microsoft_SQL_Server": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Microsoft-SQL-Server-1dbc55.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Lenguaje_de_definici%C3%B3n_de_datos": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Lenguaje-de-definición-de-datos-e8f7bf.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/PostgreSQL": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/PostgreSQL-d9dc73.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Data_definition_language": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Data-definition-language-fe69f6.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2608.15994v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Building-An-Integrated-Vector-Database-System-in-PostgreSQL-01b83f.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2405.10655v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Macroeconomic-Factors-Industrial-Indexes-and-Bank-Spread-in--dc6b60.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/sequinstream/sequin": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/sequinstream-sequin-0ebe53.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/HypoPG/hypopg": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/HypoPG-hypopg-f1c354.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/ReactOS": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/ReactOS-1ae86b.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Astro_%28framework%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Astro-framework-41cd5e.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/React_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/React-software-204262.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Next.js": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Next-js-1e1e03.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2005.12184v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/On-the-road-to-percent-accuracy-IV-ReACT-computing-the-non-l-efd589.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2104.14256v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Design-of-Robust-and-Efficient-Edge-Server-Placement-and-Ser-e08e53.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/styled-components/styled-components": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/styled-components-styled-components-fc3aa3.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/reactjs/server-components-demo": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/reactjs-server-components-demo-54ea55.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/OAuth": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/OAuth-0c4efd.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/OpenAPI_Specification": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/OpenAPI-Specification-504472.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/nlin/0205009v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Spatial-Patterns-in-Chemically-and-Biologically-Reacting-Flo-aabe14.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2304.11401v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/The-importance-of-random-galilean-transformation-invariance--b40e58.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/damienbod/angular-auth-oidc-client": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/damienbod-angular-auth-oidc-client-b6ac30.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/damienbod/AspNet6IdentityServer4AngularOidcFlows": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/damienbod-AspNet6IdentityServer4AngularOidcFlows-907ea1.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Webpack": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Webpack-6cf1b3.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Webpack": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Webpack-ce51b7.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2108.05467v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Edge-Path-Bundling-A-Less-Ambiguous-Edge-Bundling-Approach-df7145.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/webpack/webpack": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/webpack-webpack-ec5efe.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/web-infra-dev/rspack": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/web-infra-dev-rspack-e143a8.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Kubernetes": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Kubernetes-d01419.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/OpenSearch_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/OpenSearch-software-5cd602.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2207.01222v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/KubeAdaptor-A-Docking-Framework-for-Workflow-Containerizatio-cf1df8.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2006.15275v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/XI-Commandments-of-Kubernetes-Security-A-Systematization-of--df34da.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/prometheus-operator/prometheus-operator": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/prometheus-operator-prometheus-operator-a285d1.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/cloudnative-pg/cloudnative-pg": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/cloudnative-pg-cloudnative-pg-77b87e.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Drools": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Drools-0aa5c2.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Realidad_virtual": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Realidad-virtual-ddb90b.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Workflow": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Workflow-23a3e3.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Easy_Approach_to_Requirements_Syntax": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Easy-Approach-to-Requirements-Syntax-5d3d6d.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2103.13615v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/A-map-of-approaches-to-temporal-networks-820e3b.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/windmill-labs/windmill": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/windmill-labs-windmill-650418.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/firdaus/awesome-cadence-temporal-workflow": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/firdaus-awesome-cadence-temporal-workflow-dd793b.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Helm_%28package_manager%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Helm-package-manager-8ff5ca.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/UK_singles_chart": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/UK-singles-chart-3d6163.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2312.15350v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Why-Not-Mitigate-Vulnerabilities-in-Helm-Charts-af048f.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2403.09537v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Analyzing-and-Mitigating-with-LLMs-the-Security-Misconfigura-40ad54.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/Azure/orkestra": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/Azure-orkestra-e25232.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/clearml/clearml-helm-charts": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/clearml-clearml-helm-charts-1cc6ff.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/An%C3%A1lisis_de_rendimiento_de_software": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Análisis-de-rendimiento-de-software-22905a.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Grafana": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Grafana-cb972a.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Dynatrace": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Dynatrace-0dcf7f.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2510.11179v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Interoperability-From-OpenTelemetry-to-Kieker-Demonstrated-a-c87246.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2512.12314v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Evaluating-Asynchronous-Semantics-in-Trace-Discovered-Resili-ea14a6.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/SigNoz/signoz": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/SigNoz-signoz-fc8ed5.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/jaegertracing/jaeger": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/jaegertracing-jaeger-a1ba6f.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Postgres-XL": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Postgres-XL-27248e.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2205.04834v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Cognitive-Visual-learning-Environment-for-PostgreSQL-69681b.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/citusdata/citus": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/citusdata-citus-f16f63.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/cloud-sn2/cigration": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/cloud-sn2-cigration-2f2348.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Terraform_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Terraform-software-77e9ba.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Terraform_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Terraform-software-4d9a0a.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Infrastructure_as_code": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Infrastructure-as-code-ed2bb2.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2205.10676v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Terraform-Automating-Infrastructure-as-a-Service-65411a.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2001.02559v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Digital-Infrastructure-in-Astrophysics-f56de9.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/hashicorp/terraform": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/hashicorp-terraform-d8aa36.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/gruntwork-io/terragrunt": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/gruntwork-io-terragrunt-f750ca.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/OpenShift": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/OpenShift-454686.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Open_Service_Mesh": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Open-Service-Mesh-609bb1.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Service_mesh": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Service-mesh-0fb9a6.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/linkerd/linkerd2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/linkerd-linkerd2-c8d504.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/kumahq/kuma": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/kumahq-kuma-3a2963.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/LAMP_%28software_bundle%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/LAMP-software-bundle-288a54.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/0905.3668v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Lindstrom-theorems-for-fragments-of-first-order-logic-660b00.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/2ndQuadrant/pglogical": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/2ndQuadrant-pglogical-c70f62.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/shayonj/pg_easy_replicate": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/shayonj-pg_easy_replicate-b159af.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Interfaz_de_usuario": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Interfaz-de-usuario-226a65.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Inhibici%C3%B3n_de_la_conducta": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Inhibición-de-la-conducta-d10111.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Discord": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Discord-974ab4.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2210.03629v3": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/ReAct-Synergizing-Reasoning-and-Acting-in-Language-Models-17ae39.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/Dujltqzv/Some-Many-Books": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/Dujltqzv-Some-Many-Books-d194bc.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/next-safe-action/next-safe-action": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/next-safe-action-next-safe-action-405213.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Casco_de_Dios": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Casco-de-Dios-bcff40.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Brachygastra_lecheguana": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Brachygastra-lecheguana-142d58.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Spatiotemporal_pattern": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Spatiotemporal-pattern-0d41dc.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Indian_crested_porcupine": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Indian-crested-porcupine-4eff2a.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/1811.03426v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/A-Study-of-Tourist-Sequential-Activity-Patterns-through-Loca-34d819.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/cankocagil/Cognitive-Computational-Modelling-for-Spatio-Temporal-fMRI-in-Ventral-Temporal-Cortex": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/cankocagil-Cognitive-Computational-Modelling-for-Spatio-Temp-e10045.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/kidist-amde/Space-Time-Cube-visualization": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/kidist-amde-Space-Time-Cube-visualization-ad70d7.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Observability_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Observability-software-bbb7c5.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/AI_observability": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/AI-observability-6b11bb.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2006.07180v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/High-Level-ETL-for-Semantic-Data-Warehouses-Full-Version-c765e0.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/open-telemetry/weaver": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/open-telemetry-weaver-acc4f3.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/alibaba/loongsuite-java": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/alibaba-loongsuite-java-121ab1.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Terraforming": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Terraforming-038287.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/1707.09430v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Human-in-the-Loop-Interactive-Passive-Automata-Learning-via--b9b588.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/1311.5212v3": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Robust-quantum-data-locking-from-phase-modulation-608f16.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/cloudposse/terraform-aws-tfstate-backend": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/cloudposse-terraform-aws-tfstate-backend-208c13.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/nimbolus/terraform-backend": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/nimbolus-terraform-backend-0b8f0c.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Entity%E2%80%93attribute%E2%80%93value_model": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Entity-attribute-value-model-4e4184.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/sequelize/sequelize": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/sequelize-sequelize-29a1f2.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/go-pg/pg": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/go-pg-pg-7bccab.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Pandora_FMS": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Pandora-FMS-97c9e6.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/JobRunr": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/JobRunr-cf505b.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Jenkins_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Jenkins-software-68712a.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Arquitectura_dirigida_por_eventos": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Arquitectura-dirigida-por-eventos-5d564f.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Arqueometr%C3%ADa": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Arqueometría-f2185e.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Temporal_database": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Temporal-database-c0cc3a.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Temporal_logic": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Temporal-logic-ff82a4.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2609.19973v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/An-Event-Preserving-Velocity-Invariant-Representation-for-Ev-8a84cf.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/THU-KEG/MAVEN-ERE": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/THU-KEG-MAVEN-ERE-bdee0c.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/AmarBhatt/Temporal_Difference_Learning_Path_Planning": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/AmarBhatt-Temporal_Difference_Learning_Path_Planning-ad5da8.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Base_de_datos_de_vectores": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Base-de-datos-de-vectores-4f8670.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Vector_database": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Vector-database-a8d0a3.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2509.05750v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Toward-Efficient-and-Scalable-Design-of-In-Memory-Graph-Base-bd7649.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/The-Vibe-Company/quivr": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/The-Vibe-Company-quivr-eece34.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/paradedb/paradedb": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/paradedb-paradedb-08edd0.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Aqua_Security": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Aqua-Security-1a73bd.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/GitLab_Inc.": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/GitLab-Inc-a5aff5.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/openfaas/faas": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/openfaas-faas-0415e3.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/argoproj/argo-cd": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/argoproj-argo-cd-d659f8.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/IP_Flow_Information_Export": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/IP-Flow-Information-Export-11bc1d.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Audacity_%28audio_editor%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Audacity-audio-editor-cf0401.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2411.07982v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Interoperability-From-Kieker-to-OpenTelemetry-Demonstrated-a-79a61a.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/open-telemetry/opentelemetry-dotnet-contrib": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/open-telemetry-opentelemetry-dotnet-contrib-136b12.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/oracle/oracle-db-appdev-monitoring": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/oracle-oracle-db-appdev-monitoring-4f2e51.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Windows_NT": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Windows-NT-336e39.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/TPT_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/TPT-software-8c9b9f.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/zszszszsz/.config": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/zszszszsz-config-053053.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/treyorr/voca": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/treyorr-voca-64f1b2.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/The_Planet_Crafter": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/The-Planet-Crafter-a62f86.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Doom_%28franchise%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Doom-franchise-5fa01d.md",
+   "fecha": "2026-10-20"
+  },
+  "http://arxiv.org/abs/2608.02672v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Security-First-Evaluation-of-Text-to-Terraform-Benchmarking--96933f.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/hashicorp/terraform-foundational-policies-library": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/hashicorp-terraform-foundational-policies-library-814e4f.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/hashicorp/terraform-sentinel-policies": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/hashicorp-terraform-sentinel-policies-d662f6.md",
+   "fecha": "2026-10-20"
+  },
+  "https://es.wikipedia.org/wiki/Vista_materializada": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Vista-materializada-f42f16.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Materialized_view": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Materialized-view-60e2ba.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/jeffwidman/sqlalchemy-postgresql-materialized-views": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/jeffwidman-sqlalchemy-postgresql-materialized-views-ef79b0.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/k8tz/k8tz": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/k8tz-k8tz-9728f0.md",
+   "fecha": "2026-10-20"
+  },
+  "https://github.com/nianticlabs/venator": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/nianticlabs-venator-673935.md",
+   "fecha": "2026-10-20"
+  },
+  "https://en.wikipedia.org/wiki/Null_%28SQL%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Null-SQL-8d635e.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/xstevens/decoderbufs": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/xstevens-decoderbufs-6fca1f.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/davecramer/LogicalDecode": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/davecramer-LogicalDecode-91cd10.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Autoescalado": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Autoescalado-482dee.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/DNXLabs/terraform-aws-eks-metrics-server": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/DNXLabs-terraform-aws-eks-metrics-server-13943d.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/ninlil/kubectl-vpa": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/ninlil-kubectl-vpa-f9840e.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Film_editing": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Film-editing-26cb66.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Predictive_analytics": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Predictive-analytics-076c53.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/gireeshkumar/temporal_workflow_kubernetes": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/gireeshkumar-temporal_workflow_kubernetes-4e460c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/artefactual-sdps/cva-enduro-workflows": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/artefactual-sdps-cva-enduro-workflows-17e203.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/joelhooks/opencode-vibe": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/joelhooks-opencode-vibe-57c179.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Automatic_Packet_Reporting_System": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Automatic-Packet-Reporting-System-8b9454.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/2011-Tōhoku-earthquake-and-tsunami-93e767.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/sjqtentacles/sml-otel": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/sjqtentacles-sml-otel-6324a6.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/ramirescm/go-lab-weather-by-location-otel": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/ramirescm-go-lab-weather-by-location-otel-c0319a.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Self-replicating_spacecraft": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Self-replicating-spacecraft-98ffdb.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Kim_Stanley_Robinson": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Kim-Stanley-Robinson-0c5e22.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/didier-durand/microservices-on-cloud-kubernetes": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/didier-durand-microservices-on-cloud-kubernetes-7f41af.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/istio/cni": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/istio-cni-b7a0fc.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/PostgreSQL": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/PostgreSQL-c95fdb.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Full-text_search": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Full-text-search-2754a4.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/timescale/pg_textsearch": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/timescale-pg_textsearch-a96d18.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Pantalla_azul_de_la_muerte": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Pantalla-azul-de-la-muerte-dc94e0.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/rookLab/react-component-caching": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/rookLab-react-component-caching-4c973a.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/aurorascharff/next16-commerce": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/aurorascharff-next16-commerce-883630.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Automated_planning_and_scheduling": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Automated-planning-and-scheduling-10cc45.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Hidden_Markov_model": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Hidden-Markov-model-5dc916.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/galaxy-io/tempo": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/galaxy-io-tempo-767bff.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/ssyhape-pixel/opencode-scale": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/ssyhape-pixel-opencode-scale-96004d.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Aliens_%28film%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Aliens-film-fb0a77.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Stanford_University_alumni": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/List-of-Stanford-University-alumni-4d3963.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/hashicorp/policy-library-nist-policy-set-for-aws-terraform": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/hashicorp-policy-library-nist-policy-set-for-aws-terraform-506389.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/hashicorp/policy-library-pcidss-policy-set-for-aws-terraform": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/hashicorp-policy-library-pcidss-policy-set-for-aws-terraform-194f1d.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Pandemia_de_COVID-19_en_Asia": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Pandemia-de-COVID-19-en-Asia-4d9343.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Inmunidad_social": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Inmunidad-social-597f22.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Social_isolation": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Social-isolation-86d3f7.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Migrant_domestic_workers": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Migrant-domestic-workers-84a00e.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Google_Cloud": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Google-Cloud-fbec27.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Check_MK": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Check-MK-748889.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Service_discovery": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Service-discovery-9c07b2.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/alibaba/nacos": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/alibaba-nacos-e5c5b1.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/adohe-zz/kube2haproxy": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/adohe-zz-kube2haproxy-3027c3.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Database_trigger": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Database-trigger-471109.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/dboudreau00/NocTORnal": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/dboudreau00-NocTORnal-8c69f5.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/aws-samples/aws-saas-factory-postgresql-rls": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/aws-samples-aws-saas-factory-postgresql-rls-573959.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/JSX_%28programming%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/JSX-programming-d4ca21.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/Lostovayne/Complete-Clone-of-Youtube": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/Lostovayne-Complete-Clone-of-Youtube-b68228.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/PDF": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/PDF-ebfb73.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/NTSC": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/NTSC-f93546.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Database": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Database-1bea26.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/VAIXLNS/VAIXLNS": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/VAIXLNS-VAIXLNS-223922.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Environmental_monitoring": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Environmental-monitoring-a9d3d5.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/NASA-ESA_Mars_Sample_Return": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/NASA-ESA-Mars-Sample-Return-7a1042.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1403.4069v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Momentum-Strategies-with-L1-Filter-461097.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/ravichandra-eluri/otel-k8s-controller": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/ravichandra-eluri-otel-k8s-controller-93ad62.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/ericmustin/otel_sampling_lab": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/ericmustin-otel_sampling_lab-3dcfa8.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Country_code_top-level_domain": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Country-code-top-level-domain-3cf176.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2610.16365v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/World-Models-Need-a-Physical-Registry-Learning-Internal-Pred-c1ef8f.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1110.0512v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/IVOA-Recommendation-IVOA-Identifiers-Version-1-12-18a523.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/outsideris/citizen": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/outsideris-citizen-d2139e.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/terralist/terralist": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/terralist-terralist-671bfa.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Protocolo_Agent2Agent": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Protocolo-Agent2Agent-915e2b.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/GRPC": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/GRPC-1a6e6d.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/JSON-RPC": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/JSON-RPC-2de3f9.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1807.01272v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Verification-Protocols-with-Sub-Linear-Communication-for-Pol-e458a0.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2404.05598v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Hook-in-Privacy-Techniques-for-gRPC-based-Microservice-Commu-5b07b8.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/bufbuild/buf": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/bufbuild-buf-a0893c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/TykTechnologies/tyk": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/TykTechnologies-tyk-783c2a.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Google_Cloud_Platform": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Google-Cloud-Platform-a45d23.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Teleport_%28software%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Teleport-software-eb2ec9.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2608.26573v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Optimizing-API-Gateway-Placement-in-Multi-Cloud-Kubernetes-179d1c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/Kong/kong": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/Kong-kong-ae89cd.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/apache/apisix": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/apache-apisix-577528.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/ChatGPT": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/ChatGPT-6a072d.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Cilium_%28computing%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Cilium-computing-d19cc7.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/theplatformlab/CKA-Certified-Kubernetes-Administrator": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/theplatformlab-CKA-Certified-Kubernetes-Administrator-ea8c88.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/otterize/intents-operator": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/otterize-intents-operator-bb4039.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Devart_Group": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Devart-Group-1a2461.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Connection_pool": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Connection-pool-95db66.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2109.01561v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Ordinal-Pooling-227247.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2110.14381v3": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Temporal-attentive-Covariance-Pooling-Networks-for-Video-Rec-e4566c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/pgdogdev/pgdog": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/pgdogdev-pgdog-cafc4e.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/pgbouncer/pgbouncer": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/pgbouncer-pgbouncer-18ec99.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/MEAN_%28solution_stack%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/MEAN-solution-stack-309e14.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Liquid_Glass": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Liquid-Glass-063a2e.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/pal-tamas/rask": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/pal-tamas-rask-c13baa.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/childrentime/gotsx": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/childrentime-gotsx-ba8c6f.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Generaci%C3%B3n_X": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Generación-X-48fd9a.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Luiz-Inácio-Lula-da-Silva-bd5b24.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/RISC-V": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/RISC-V-bdf352.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2608.25403v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Retry-Amplification-in-Distributed-Systems-A-Systematic-Anal-45b7d9.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/List_of_board_games": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/List-of-board-games-6ec7f5.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/quant-ph/0206065v6": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Schrodinger-s-cat-The-rules-of-engagement-580bba.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/babarot/stein": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/babarot-stein-66ae21.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/danielkosatka/cloudtrail-sentinel": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/danielkosatka-cloudtrail-sentinel-b94525.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Netdata": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Netdata-72acbd.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2401.05355v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Developing-a-Resource-Constraint-EdgeAI-model-for-Surface-De-b3cbfa.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2508.13498v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Improving-the-FAIRness-and-Sustainability-of-the-NHGRI-Resou-8dc94a.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Protocol_Buffers": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Protocol-Buffers-ff3926.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Protocol_Buffers": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Protocol-Buffers-720049.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Remote_procedure_call": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Remote-procedure-call-e71cf0.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1804.01138v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Designing-a-Micro-Benchmark-Suite-to-Evaluate-gRPC-for-Tenso-d89676.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1812.03967v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/ProIO-An-Event-Based-I-O-Stream-Format-for-Protobuf-Messages-c0822e.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/google/flatbuffers": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/google-flatbuffers-039279.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/go-kratos/kratos": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/go-kratos-kratos-147a5c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/HPA": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/HPA-b8f207.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/stefanprodan/k8s-prom-hpa": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/stefanprodan-k8s-prom-hpa-aaaa1c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/zalando-incubator/kube-metrics-adapter": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/zalando-incubator-kube-metrics-adapter-cbf8cf.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Apache_DataFusion": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Apache-DataFusion-655913.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2009.04821v3": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Pushdown-and-Lempel-Ziv-Depth-d64e08.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2608.24601v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Pushdown-Model-Checking-Above-the-Cubic-Bottleneck-344850.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/DavFilsDev/hei-pushdown-processing-evaluation": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/DavFilsDev-hei-pushdown-processing-evaluation-ea974c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/sophie-nguyenthuthuy/distributed-query-planner": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/sophie-nguyenthuthuy-distributed-query-planner-e541c5.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Single-page_application": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Single-page-application-4bd230.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/rsc-kit/rsc-kit": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/rsc-kit-rsc-kit-a63cb2.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/ymichael/react-thrift": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/ymichael-react-thrift-dff9fe.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Hopfield_network": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Hopfield-network-3b56da.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Examples_of_data_mining": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Examples-of-data-mining-713216.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2610.04881v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Energy-performance-tradeoffs-in-server-farms-with-batch-serv-a3cce5.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1106.3842v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Night-sky-brightness-monitoring-in-Hong-Kong-a-city-wide-lig-012721.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/krzko/otelgen": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/krzko-otelgen-261551.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/developertogo/better-uptime": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/developertogo-better-uptime-e6bc1b.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/EBPF": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/EBPF-a31179.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2308.01983v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Unleashing-Unprivileged-eBPF-Potential-with-Dynamic-Sandboxi-b6b258.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/cilium/cilium": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/cilium-cilium-5b4505.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/kubesphere/kubesphere": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/kubesphere-kubesphere-aef0ae.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/List_of_Dune_characters": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/List-of-Dune-characters-e9ef56.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Search_for_extraterrestrial_intelligence": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Search-for-extraterrestrial-intelligence-add6c1.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2610.02914v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Custom-Forcing-Training-Free-Subject-Customization-for-Autor-63266f.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2212.04488v2": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Multi-Concept-Customization-of-Text-to-Image-Diffusion-0777e1.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/wani-bio/sentinel": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/wani-bio-sentinel-93ad15.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/libre-devops/terraform-msgraph-alerts-and-incidents-utils": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/libre-devops-terraform-msgraph-alerts-and-incidents-utils-9ba1f7.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1112.2155v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/A-Concurrency-Control-Method-Based-on-Commitment-Ordering-in-690d7d.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/2107.11458v3": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Variant-interpretation-using-population-databases-lessons-fr-d21d37.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Go_%28lenguaje_de_programaci%C3%B3n%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Go-lenguaje-de-programación-7f7d7a.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/R%C3%ADo_Pit": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Río-Pit-1faabb.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/LTX_%28world_model%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/LTX-world-model-48367c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Cloud_forest": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Cloud-forest-d90e6e.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/physics/0104048v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/A-study-of-the-link-between-cosmic-rays-and-clouds-with-a-cl-030d43.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/agentarea/agentarea": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/agentarea-agentarea-2eeaad.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/zynax-io/zynax": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/zynax-io-zynax-a2d1ed.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1911.11286v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/LogPlayer-Fault-tolerant-Exactly-once-Delivery-using-gRPC-As-e3c4bb.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/cloudwego/kitex": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/cloudwego-kitex-7f63b3.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Escala_temporal_geol%C3%B3gica": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Escala-temporal-geológica-ae0a9c.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Tabla_peri%C3%B3dica_de_los_elementos": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Tabla-periódica-de-los-elementos-c68ca2.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/Decision_time": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Decision-time-080322.md",
+   "fecha": "2026-10-21"
+  },
+  "http://arxiv.org/abs/1110.0625v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/On-the-history-of-the-isomorphism-problem-of-dynamical-syste-6a5c03.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/thatdevsherry/historia": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/thatdevsherry-historia-bd5337.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/hooopo/shadow": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/hooopo-shadow-e29aee.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Campeonato_Sub-20_de_la_Concacaf_de_2017": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Campeonato-Sub-20-de-la-Concacaf-de-2017-aeb395.md",
+   "fecha": "2026-10-21"
+  },
+  "https://en.wikipedia.org/wiki/X_%28social_network%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/X-social-network-563fd9.md",
+   "fecha": "2026-10-21"
+  },
+  "https://github.com/Rahugg/CRM-system-go-microservices": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/Rahugg-CRM-system-go-microservices-b9bef0.md",
+   "fecha": "2026-10-21"
+  },
+  "https://es.wikipedia.org/wiki/Trabajo_cooperativo_asistido_por_computadora": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Trabajo-cooperativo-asistido-por-computadora-6b0f05.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/1406.7762v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Comparison-between-illumination-model-and-hydrodynamic-simul-c8a2d5.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/geeewhy/intent": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/geeewhy-intent-aae321.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/temporal-sa/temporal-entity-lifecycle-go": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/temporal-sa-temporal-entity-lifecycle-go-86be06.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/rknightion/tailscale2otel": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/rknightion-tailscale2otel-4f09af.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/rknightion/meraki-dashboard-exporter": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/rknightion-meraki-dashboard-exporter-0b307c.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/1603.07695v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Part-of-Speech-Relevance-Weights-for-Learning-Word-Embedding-0cd1df.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/supabase/supabase": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/supabase-supabase-2a2c14.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/InsForge/InsForge": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/InsForge-InsForge-8134e1.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2512.23415v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/An-SLO-Driven-and-Cost-Aware-Autoscaling-Framework-for-Kuber-807a04.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2604.11017v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/NimbusGuard-A-Novel-Framework-for-Proactive-Kubernetes-Autos-553ee2.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/kedacore/keda": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/kedacore-keda-e862a9.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/kedacore/http-add-on": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/kedacore-http-add-on-bf79b9.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/buildnbuzz/buzzform": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/buildnbuzz-buzzform-26842e.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2610.12007v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/REACT-Rolling-Denoising-and-Dual-Decoupling-for-Reactive-Rob-30a279.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/freema/codeforge": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/freema-codeforge-299578.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/noscrubs-dev/expo-turbo": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/noscrubs-dev-expo-turbo-69ee49.md",
+   "fecha": "2026-10-22"
+  },
+  "https://es.wikipedia.org/wiki/Planta_epifita": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Planta-epifita-ee3770.md",
+   "fecha": "2026-10-22"
+  },
+  "https://es.wikipedia.org/wiki/Migraci%C3%B3n_altitudinal": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Migración-altitudinal-01d6d0.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Message_queuing_service": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Message-queuing-service-648b33.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Sunda_clouded_leopard": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Sunda-clouded-leopard-0ddd89.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2401.04670v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Modified-Levenberg-Marquardt-Algorithm-For-Tensor-CP-Decompo-076bcb.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/cs/0703132v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Structure-induction-by-lossless-graph-compression-92b522.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/system-highload-architect/pcef-shaper-system": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/system-highload-architect-pcef-shaper-system-cc853f.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/TimescaleDB": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/TimescaleDB-e398e4.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/timescale/timescaledb": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/timescale-timescaledb-d91aa8.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/prest/prest": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/prest-prest-a82857.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Web_framework": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Web-framework-65ab11.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2602.06074v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Experimental-Analysis-of-Server-Side-Caching-for-Web-Perform-1946f0.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/1208.2724v5": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Caching-with-rental-cost-and-zapping-ca8a79.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/rramatchandran/big-o-performance-java": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/rramatchandran-big-o-performance-java-85e6da.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/mcrovero/effect-nextjs-example": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/mcrovero-effect-nextjs-example-209e85.md",
+   "fecha": "2026-10-22"
+  },
+  "https://es.wikipedia.org/wiki/MariaDB": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/MariaDB-021c5b.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Trino_%28SQL_query_engine%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Trino-SQL-query-engine-a8b5a3.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/MySQL": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/MySQL-a7def1.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2207.02337v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Federated-and-Transfer-Learning-A-Survey-on-Adversaries-and--f92af3.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2608.08906v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Federated-Attention-Autoencoders-with-a-Stochastic-Aggregati-f7ff65.md",
+   "fecha": "2026-10-22"
+  },
+  "https://es.wikipedia.org/wiki/Metadatos": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Metadatos-369f8f.md",
+   "fecha": "2026-10-22"
+  },
+  "https://es.wikipedia.org/wiki/Pirineos": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Pirineos-7366f6.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Temporal_power_of_the_Holy_See": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Temporal-power-of-the-Holy-See-a545e0.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Neural_oscillation": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Neural-oscillation-b3fa40.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/List-of-TCP-and-UDP-port-numbers-4b3927.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Deepfake": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Deepfake-21d8ec.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Autoscaling": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Autoscaling-47b4db.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Bare-metal_server": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Bare-metal-server-e7e38d.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Erasmus": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Erasmus-6b2a62.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/DeepSQLAI/deepsql": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/DeepSQLAI-deepsql-ba56e9.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/VioletCranberry/coco-search": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/VioletCranberry-coco-search-02782f.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Sidecar_proxy": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Sidecar-proxy-76e8b9.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/1211.5596v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/A-Composite-Design-Pattern-for-Service-Injection-and-Composi-cae698.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/thangchung/shopping-cart-k8s": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/thangchung-shopping-cart-k8s-c8a6a0.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/YeamimHossainSajid/Veridian": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/YeamimHossainSajid-Veridian-a6a26e.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2603.00913v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Minimalist-Compliance-Control-ba7d92.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/2008.03775v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Tactics-for-Internal-Compliance-A-Literature-Review-24d24c.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Blue%E2%80%93green_deployment": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Blue-green-deployment-6e79d7.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/operator-framework/operator-lifecycle-manager": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/operator-framework-operator-lifecycle-manager-3cbb20.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/k8s-operatorhub/community-operators": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/k8s-operatorhub-community-operators-5ac456.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/wwindcloud/pg-subscription-stream": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/wwindcloud-pg-subscription-stream-891fd6.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/codetesla51/phylax": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/codetesla51-phylax-fd915c.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/1310.4231v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Dynamic-cache-reconfiguration-based-techniques-for-improving-297c28.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/reyarqueza/nextjs-16-example": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/reyarqueza-nextjs-16-example-89cdf9.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/MOOC-FL/Full-Stack-Open-Next.js": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/MOOC-FL-Full-Stack-Open-Next-js-636fa2.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/List_of_free_and_open-source_software_packages": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/List-of-free-and-open-source-software-packages-363713.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/sunilgentyala/DKG-TLAN": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/sunilgentyala-DKG-TLAN-0d5bfa.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/haritron/CRON_JOB": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/haritron-CRON_JOB-c64c02.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/1807.05097v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Local-learning-rules-to-attenuate-forgetting-in-neural-netwo-41f986.md",
+   "fecha": "2026-10-22"
+  },
+  "http://arxiv.org/abs/1810.08055v1": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/arxiv/Ten-Simple-Rules-for-Reproducible-Research-in-Jupyter-Notebo-b998d0.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/operator-framework/operator-sdk": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/operator-framework-operator-sdk-9f0dcb.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/ansible/awx-operator": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/ansible-awx-operator-9c1a5d.md",
+   "fecha": "2026-10-22"
+  },
+  "https://es.wikipedia.org/wiki/Madagascar": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-es/Madagascar-1f0924.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/RNA-Seq": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/RNA-Seq-e67a4d.md",
+   "fecha": "2026-10-22"
+  },
+  "https://en.wikipedia.org/wiki/Leakage_%28machine_learning%29": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/wikipedia-en/Leakage-machine-learning-037506.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/SiWarlock/AI-System-Of-Work-Assistant-Agent": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/SiWarlock-AI-System-Of-Work-Assistant-Agent-5abc61.md",
+   "fecha": "2026-10-22"
+  },
+  "https://github.com/wgoodall01/temporal-webpack-isolation-repro": {
+   "ok": true,
+   "nota": "LLM-Memoria/Web/github/wgoodall01-temporal-webpack-isolation-repro-33c85e.md",
+   "fecha": "2026-10-22"
+  }
+ },
+ "temas": [
+  "Git Hooks",
+  "Docker Compose",
+  "PostgreSQL Indexes",
+  "React Server Components",
+  "OAuth2 Flows",
+  "Webpack Bundling",
+  "Kubernetes Operators",
+  "Temporal Workflow Engine",
+  "Helm Charts Management",
+  "Tracing OpenTelemetry",
+  "PostgreSQL Citus Sharding",
+  "Terraform Infrastructure as Code",
+  "Kubernetes Service Mesh",
+  "PostgreSQL Logical Replication",
+  "React Server Actions",
+  "Temporal Activity Patterns",
+  "OpenTelemetry Semantic Conventions",
+  "Terraform State Locking",
+  "PostgreSQL JSONB",
+  "Temporal Event Sourcing",
+  "PostgreSQL Vector Search",
+  "Kubernetes GitOps",
+  "OpenTelemetry Exporters",
+  "React Server Signals",
+  "Terraform Sentinel",
+  "PostgreSQL Materialized Views",
+  "Kubernetes CronJobs",
+  "PostgreSQL Logical Decoding",
+  "Kubernetes Vertical Pod Autoscaler",
+  "Temporal Child Workflows",
+  "React Server Components Streaming",
+  "OpenTelemetry Attribute Propagation",
+  "Terraform Sentinel Policies",
+  "Kubernetes Istio Sidecar",
+  "PostgreSQL Full-Text Search",
+  "React Server Components Caching",
+  "Temporal Workflow Observability",
+  "OpenTelemetry Distributed Tracing",
+  "Terraform Sentinel Compliance",
+  "Temporal Worker Isolation",
+  "Kubernetes Service Discovery",
+  "PostgreSQL Row Level Security",
+  "React Server Components Suspense",
+  "Temporal Workflow History Tables",
+  "OpenTelemetry Sampling Strategies",
+  "Terraform Provider Registry",
+  "gRPC Protocols",
+  "OpenTelemetry Tracing",
+  "Kubernetes Gateway API",
+  "Kubernetes NetworkPolicies",
+  "PostgreSQL Connection Pooling",
+  "React Server Components Islands",
+  "Temporal Retry Policies",
+  "Terraform Sentinel Rules",
+  "OpenTelemetry Resource Detection",
+  "gRPC Protobuf",
+  "Kubernetes HPA",
+  "PostgreSQL Query Pushdown",
+  "React Server Components Prerendering",
+  "Temporal Batch Activity Patterns",
+  "OpenTelemetry Synthetic Monitoring",
+  "Kubernetes eBPF Observability",
+  "Terraform Sentinel Custom Rules",
+  "Tanita Vector Database",
+  "Temporal Cloud Native",
+  "gRPC Protobuf Streaming",
+  "Temporal History Tables",
+  "gRPC Deadlines",
+  "Temporal Workflow Patterns",
+  "OpenTelemetry OTLP Exporters",
+  "PostgreSQL pgvector Embeddings",
+  "Kubernetes KEDA Autoscaling",
+  "React Server Actions Validation",
+  "React Server Actions Streaming",
+  "Temporal Cloud Native Patterns",
+  "gRPC Protobuf Compression",
+  "PostgreSQL TimescaleDB",
+  "React Server Actions Caching",
+  "PostgreSQL Federated Queries",
+  "Temporal Activity Groups",
+  "React Server Actions Auth",
+  "Kubernetes Cluster Autoscaler",
+  "Temporal Child Workflows Isolation",
+  "PostgreSQL pgvector Indexes",
+  "Kubernetes Service Mesh Patterns",
+  "Terraform Sentinel Compliance Rules",
+  "Kubernetes Operator Lifecycle Manager",
+  "PostgreSQL Logical Replication Slots",
+  "React Server Components Suspense Cache",
+  "Temporal Cloud Native Observability",
+  "gRPC Protobuf Compression Strategies",
+  "Terraform Sentinel Custom Rule Sets",
+  "PostgreSQL Logical Decoupling",
+  "Kubernetes Operator SDK",
+  "Temporal Workflow Isolation"
+ ],
+ "dia": {
+  "fecha": "2026-10-22",
+  "n": 74
+ }
+}

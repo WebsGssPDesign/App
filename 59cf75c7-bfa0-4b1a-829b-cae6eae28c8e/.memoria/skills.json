@@ -1,0 +1,85 @@
+{
+ "hechas": {
+  "configuracion-llm-local": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Guidelines/Skills/mlops/evaluation/lm-evaluation-harness/references/api-evaluation.md",
+    "Guidelines/Skills/mlops/inference/llama-cpp/SKILL.md",
+    "Guidelines/Skills/mlops/inference/vllm/references/server-deployment.md",
+    "Context/emprendimientos/cerebroTeam/Sistema_ERP_CRM_IA_GSSP/Qwen__20260616_m34ri76la.txt",
+    "Context/emprendimientos/proyectosInconclusos/erp-crm-ia-local/SETUP_GUIDE.md",
+    "Guidelines/Skills/mlops/inference/vllm/SKILL.md"
+   ]
+  },
+  "agente-research-academico": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Guidelines/Skills/research/llm-wiki/SKILL.md",
+    "Guidelines/Skills/research/research-paper-writing/SKILL.md",
+    "Guidelines/Skills/SenseNova-Skills-main/docs/sn-deep-research.md",
+    "Guidelines/Skills/SenseNova-Skills-main/docs/sn-deep-research_cn.md",
+    "Guidelines/Skills/research/research-paper-writing/references/sources.md",
+    "Guidelines/Skills/research/research-paper-writing/references/citation-workflow.md"
+   ]
+  },
+  "dise-o-infografia-bento": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Guidelines/Skills/creative/baoyu-infographic/references/layouts/bento-grid.md",
+    "Guidelines/Skills/creative/baoyu-infographic/references/layouts/dashboard.md",
+    "Guidelines/Skills/creative/popular-web-designs/templates/ibm.md",
+    "Guidelines/Skills/SenseNova-Skills-main/skills/sn-infographic/references/layouts/bento-grid.md"
+   ]
+  },
+  "automatizacion-excel-python": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Guidelines/Skills/SenseNova-Skills-main/skills/sn-da-excel-workflow/capability/excel-data-filtering/range-filtering/SKILL.md",
+    "Guidelines/Skills/SenseNova-Skills-main/skills/sn-da-excel-workflow/capability/excel-data-filtering/condition-filtering/SKILL.md",
+    "Guidelines/Skills/SenseNova-Skills-main/skills/sn-da-excel-workflow/capability/excel-conditional-formatting/data-bar-formatting/SKILL.md",
+    "Guidelines/Skills/SenseNova-Skills-main/skills/sn-da-excel-workflow/capability/excel-data-cleaning/numeric-format-normalization/SKILL.md"
+   ]
+  },
+  "generacion-ppt-semantic": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Guidelines/Skills/autonomous-ai-agents/codex/SKILL.md",
+    "Guidelines/Skills/creative/comfyui/references/template-integrity.md",
+    "Guidelines/Skills/creative/comfyui/references/workflow-format.md",
+    "Guidelines/Skills/creative/comfyui/SKILL.md",
+    "Guidelines/Skills/SenseNova-Skills-main/examples/generative-ai-revolution-ppt/README.md",
+    "Guidelines/Skills/SenseNova-Skills-main/Biweekly Report.md"
+   ]
+  },
+  "gesti-n-inventario-costos-multi-sector": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Context/emprendimientos/proyectosInconclusos/erp/readme.md",
+    "Context/emprendimientos/webs/portfolio/Nueva carpeta/backUp/img/cuidadoPersonal/costos.txt",
+    "Context/emprendimientos/webs/portfolio/Nueva carpeta/backUp/img/hogar/costos.txt",
+    "Context/emprendimientos/webs/portfolio/Nueva carpeta/backUp/Nueva carpeta/windsurf-project-7/listaProductos/img/cuidado Personal/costos.txt"
+   ]
+  },
+  "estructura-database-perfiles-usuarios": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Context/emprendimientos/webs/portfolio/Nueva carpeta/CascadeProjects/ecommerce-app-main/ecommerce-app-main/backend/database/tables/userProfiles.txt",
+    "Context/emprendimientos/webs/portfolio/Nueva carpeta/CascadeProjects/ecommerce-basictech-master/README.md",
+    "Context/emprendimientos/conversations/Dola_estrategia/scrap.md",
+    "Context/emprendimientos/proyectosInconclusos/Nueva carpeta/ia/README.md",
+    "Context/emprendimientos/conversations/Empty Folder (2)/1790765520865.conversation.json"
+   ]
+  },
+  "automatizaci-n-flujo-publicaci-n-con-tokens": {
+   "fecha": "2026-10-21",
+   "fuentes": [
+    "Guidelines/Skills/marketing-skill-claude-marketing-skill-builder-uzp891/skills/short-form-video/SKILL.md",
+    "Guidelines/Skills/marketing-skill-claude-marketing-skill-builder-uzp891/skills/full-pipeline/SKILL.md",
+    "Guidelines/Skills/marketing-skill-claude-marketing-skill-builder-uzp891/skills/publish-pipeline/SKILL.md",
+    "Guidelines/Skills/creative/manim-video/references/production-quality.md",
+    "Guidelines/Skills/social-scheduler.md"
+   ]
+  }
+ },
+ "saltadas": {}
+}

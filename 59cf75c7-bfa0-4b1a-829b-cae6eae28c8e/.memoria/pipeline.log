@@ -1,0 +1,68 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261020213545
+Nombre de usuario: SAM\gsimo
+Usuario RunAs: SAM\gsimo
+Nombre de la configuración: 
+Máquina: SAM (Microsoft Windows NT 10.0.26100.0)
+Aplicación host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File F:\automatizaciones\homeLab\memoria_vectorial\iniciar.ps1 -NoCargarModelos -Web
+Id. de proceso: 30648
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Indexador en segundo plano (PID 29516).
+
+=== Aprender documentos (intento 1 de 6) 21:35:49 ===
+Aprender documentos termino con codigo 1. Espero 30 s, reviso los modelos y reintento.
+PS>ErrorTerminación(Invoke-RestMethod): "No es posible conectar con el servidor remoto"
+El servidor de LM Studio no responde y no puedo iniciarlo en este modo.
+
+=== Aprender documentos (intento 2 de 6) 21:42:49 ===
+Aprender documentos termino con codigo 1. Espero 30 s, reviso los modelos y reintento.
+PS>ErrorTerminación(Invoke-RestMethod): "{
+    "error": {
+        "message": "Failed to load model \"qwen3.5-9b\". Error: Operation canceled.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}"
+Los modelos no responden: {
+    "error": {
+        "message": "Failed to load model \"qwen3.5-9b\". Error: Operation canceled.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}
+
+=== Aprender documentos (intento 3 de 6) 21:45:09 ===
+Aprender documentos termino con codigo 1. Espero 30 s, reviso los modelos y reintento.
+PS>ErrorTerminación(Invoke-RestMethod): "{
+    "error": {
+        "message": "Failed to load model \"qwen3.5-9b\". Error: Operation canceled.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}"
+Los modelos no responden: {
+    "error": {
+        "message": "Failed to load model \"qwen3.5-9b\". Error: Operation canceled.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}
+
+=== Aprender documentos (intento 4 de 6) 21:47:32 ===
+
+=== Crear skills (intento 1 de 6) 00:56:21 ===
+
+=== Aprender web (intento 1 de 6) 01:01:44 ===
