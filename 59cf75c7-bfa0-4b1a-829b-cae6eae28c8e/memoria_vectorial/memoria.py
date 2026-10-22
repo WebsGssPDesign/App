@@ -250,6 +250,24 @@ def _fijar_documento(conn: sqlite3.Connection) -> None:
     conn.execute("INSERT OR REPLACE INTO meta(k, v) VALUES('modelo', ?)", (_modelo_embed(),))
 
 
+_REBUILD_PATH = Path(os.environ.get("MEMORIA_TEST_DIR", str(ESTADO_DIR))) / "rebuild_hechos.json"
+
+
+def _rebuild_en_curso() -> bool:
+    """True si hay una reconstruccion por tandas a medias (progreso persistido)."""
+    return _REBUILD_PATH.exists()
+
+
+def _marcar_rebuild(activo: bool) -> None:
+    try:
+        if activo:
+            _REBUILD_PATH.write_text('{"en_curso": true}', encoding="utf-8")
+        else:
+            _REBUILD_PATH.unlink(missing_ok=True)
+    except OSError:
+        pass
+
+
 def _wipe(conn: sqlite3.Connection) -> None:
     """Vacia el indice vectorial. NO toca `contadores`: son del sistema, no del indice."""
     # Orden obligatorio: DELETE FROM chunks PRIMERO (el disparador chunks_ad limpia
@@ -643,56 +661,67 @@ def sync(max_segundos: float | None = None, forzar: bool = False) -> dict:
                          conn.execute("SELECT id, ruta, hash FROM files").fetchall()}
 
             if forzar and _hay_filas(conn):
-                # Reconstruccion completa: copia a .bak ANTES de _wipe (PARCHES §6).
-                with contextlib.suppress(OSError):
-                    shutil.copy2(DB_PATH, DB_PATH.with_name(DB_PATH.name + ".bak"))
+                # Reconstruccion completa POR TANDAS (memoria por archivo, no todo
+                # en RAM). Progreso persistido en un hecho de indice: la primera
+                # pasada vacia el indice; cada tanda indexa archivos hasta agotar el
+                # presupuesto y los terminos ya reindexados (hash actual) se saltan.
+                # Si LM Studio cae a mitad, la siguiente ejecucion continua sin
+                # repetir trabajo. Copia a .bak ANTES del primer _wipe (PARCHES §6).
+                if not _rebuild_en_curso():
+                    with contextlib.suppress(OSError):
+                        shutil.copy2(DB_PATH, DB_PATH.with_name(DB_PATH.name + ".bak"))
+                    with conn:
+                        _wipe(conn)
+                    _marcar_rebuild(True)
                 pendientes = [rel for rel, info in sorted(presentes.items())
                               if info["texto"] is not None]
-                trozos_por_rel: dict[str, list[tuple[str, str]]] = {}
-                marcas: list[tuple[str, int]] = []
-                planos: list[str] = []
-                for rel in pendientes:
-                    trozos = chunk_con_encabezado(
-                        presentes[rel]["texto"],
-                        markdown=Path(rel).suffix.lower() in DOC_EXT)
-                    if not trozos:
-                        continue
-                    trozos_por_rel[rel] = trozos
-                    for j, (_, cuerpo) in enumerate(trozos):
-                        planos.append(cuerpo)
-                        marcas.append((rel, j))
-                vectores = None
-                if planos:
-                    try:
-                        vectores = embed(planos, tipo="doc")
-                    except (EmbeddingError, llm.SinConexion) as e:
-                        incidencias.registrar("indice", type(e).__name__, "media", str(e)[:200])
-                        raise
-                with conn:
-                    _wipe(conn)
+                resumen["sin_cambios"] = len(presentes) - len(pendientes)
+                procesados = 0
+                try:
                     for rel in pendientes:
-                        trozos = trozos_por_rel.get(rel)
+                        info = presentes[rel]
+                        if conocidos.get(rel, (None,))[0] == info["hash"]:
+                            continue  # ya reindexado en una tanda anterior
+                        if presupuesto and (time.time() - t0) > presupuesto:
+                            resumen["parcial"] = True
+                            break
+                        if parado():
+                            resumen["parcial"] = True
+                            break
+                        trozos = chunk_con_encabezado(
+                            info["texto"],
+                            markdown=Path(rel).suffix.lower() in DOC_EXT)
                         if not trozos:
                             continue
-                        info = presentes[rel]
-                        conn.execute(
-                            "INSERT INTO files(id, ruta, hash, tamano, mtime, n, ts)"
-                            " VALUES(?,?,?,?,?,?,?)",
-                            (_file_id_de(rel), rel, info["hash"], info["tamano"],
-                             info["mtime"], len(trozos), time.time()),
-                        )
-                        resumen["nuevos"] += 1
-                    if vectores is not None:
-                        for pos, ((rel, j), vec) in enumerate(zip(marcas, vectores)):
-                            enc, cuerpo = trozos_por_rel[rel][j]
+                        vectores = embed([c for _, c in trozos], tipo="doc")
+                        file_id = _file_id_de(rel)
+                        viejo = conocidos.get(rel)
+                        with conn:
+                            if viejo:
+                                conn.execute("DELETE FROM chunks WHERE file_id=?",
+                                             (viejo[1],))
+                                conn.execute("DELETE FROM files WHERE id=?",
+                                             (viejo[1],))
                             conn.execute(
-                                "INSERT INTO chunks(file_id, ruta, idx, encabezado, texto,"
-                                " emb, dim, modelo) VALUES(?,?,?,?,?,?,?,?)",
-                                (_file_id_de(rel), rel, j, enc, cuerpo,
-                                 np.ascontiguousarray(vec, dtype=np.float32).tobytes(),
-                                 int(vec.shape[0]), _modelo_embed()),
+                                "INSERT INTO files(id, ruta, hash, tamano, mtime, n, ts)"
+                                " VALUES(?,?,?,?,?,?,?)",
+                                (file_id, rel, info["hash"], info["tamano"],
+                                 info["mtime"], len(trozos), time.time()),
                             )
-                    _fijar_documento(conn)
+                            _insertar_chunks(conn, rel, file_id, trozos, vectores)
+                        resumen["nuevos"] += 1
+                        procesados += 1
+                        if procesados % 50 == 0:
+                            _refrescar_lock()
+                except (EmbeddingError, llm.SinConexion) as e:
+                    incidencias.registrar("indice", type(e).__name__, "media",
+                                          str(e)[:200])
+                    raise
+                finally:
+                    if not resumen.get("parcial"):
+                        with conn:
+                            _fijar_documento(conn)
+                        _marcar_rebuild(False)
                 _ultimo_sync["t"] = time.time()
                 return resumen
 
