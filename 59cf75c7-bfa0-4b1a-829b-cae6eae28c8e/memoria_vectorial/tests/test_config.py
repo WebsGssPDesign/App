@@ -35,6 +35,7 @@ def test_lista_desde_env(monkeypatch):
 
 
 def test_origen(monkeypatch):
+    monkeypatch.delenv("MEMORIA_MIN_SIM", raising=False)  # conftest fija esta env global para el suite
     assert config.origen("memoria.min_sim") == "default"
     monkeypatch.setenv("MEMORIA_MIN_SIM", "0.5")
     assert config.origen("memoria.min_sim") == "env"

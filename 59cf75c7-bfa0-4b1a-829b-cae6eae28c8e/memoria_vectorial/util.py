@@ -79,10 +79,30 @@ def edad_segundos(ruta: Path) -> float:
 def proceso_vivo(pid: int) -> bool:
     if pid <= 0:
         return False
+    if os.name == "nt":
+        # os.kill() no funciona en Windows (lanza SystemError): usar ctypes.
+        import ctypes
+        PROCESS_QUERY_LIMITED_INFORMATION = 0x1000
+        STILL_ACTIVE = 259
+        ERROR_ACCESS_DENIED = 5
+        kernel32 = ctypes.windll.kernel32
+        h = kernel32.OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, False, int(pid))
+        if not h:
+            return kernel32.GetLastError() == ERROR_ACCESS_DENIED
+        try:
+            codigo = ctypes.c_ulong()
+            if kernel32.GetExitCodeProcess(h, ctypes.byref(codigo)):
+                return codigo.value == STILL_ACTIVE
+            return True
+        finally:
+            kernel32.CloseHandle(h)
     try:
         os.kill(pid, 0)
         return True
     except OSError:
+        return False
+    except Exception:
+        # En CPython un pid inexistente puede lanzar SystemError; se trata como muerto.
         return False
 
 

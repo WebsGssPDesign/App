@@ -123,7 +123,7 @@ def puntuar_relevancia(texto: str) -> float:
     texto_min = (texto or "").lower()
     if not texto_min.strip():
         return 0.0
-    pesos = pesos()
+    w = pesos()  # (no llamar la variable "pesos": sombreaba la funcion y reventaba con UnboundLocalError)
     terminos = intereses() + objetivos()
     if not terminos:
         return 0.5
@@ -132,7 +132,7 @@ def puntuar_relevancia(texto: str) -> float:
         t = termino.lower()
         if not t:
             continue
-        peso = float(pesos.get(termino, 0.5))
+        peso = float(w.get(termino, 0.5))
         total += peso
         if t in texto_min:
             encontrados += peso
