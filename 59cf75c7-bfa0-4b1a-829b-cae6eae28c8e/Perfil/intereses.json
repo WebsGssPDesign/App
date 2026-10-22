@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "principales": ["HTML5", "CSS Vanilla", "JavaScript Vanilla", "React", "Next.js", "MongoDB", "Obsidian", "LM Studio", "IA local", "n8n", "automatizacion", "negocios digitales", "desarrollo web", "sistemas de memoria"],
+  "peso": {
+    "IA local": 1.0, "sistemas de memoria": 1.0, "automatizacion": 0.9,
+    "desarrollo web": 0.8, "n8n": 0.8, "Obsidian": 0.8,
+    "React": 0.7, "Next.js": 0.7, "MongoDB": 0.6
+  },
+  "secundarios": [],
+  "actualizado": ""
+}

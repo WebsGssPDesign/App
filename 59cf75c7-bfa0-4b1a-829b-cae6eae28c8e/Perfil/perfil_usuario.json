@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "nombre": "Guillermo Samuel Simones Primera",
+  "idioma": "es",
+  "filosofia": ["simplicidad", "control manual", "minimo numero de dependencias", "primero funciona, luego optimiza"],
+  "herramientas": ["LM Studio", "Obsidian", "VS Code", "OrderCode", "n8n", "Git", "Hostinger"],
+  "stack_por_defecto": {
+    "frontend": ["HTML5", "CSS Vanilla", "JavaScript Vanilla"],
+    "framework": ["React", "Next.js"],
+    "datos": ["MongoDB"]
+  },
+  "reglas_inferencia": [
+    "Si pide una app o web sin especificar stack, usar stack_por_defecto.",
+    "Preferir HTML5 + CSS + JS vanilla antes que un framework salvo que lo pida.",
+    "No proponer dependencias nuevas si la stdlib resuelve el problema.",
+    "Codigo en espanol, comentarios en espanol."
+  ],
+  "actualizado": "",
+  "historial": []
+}

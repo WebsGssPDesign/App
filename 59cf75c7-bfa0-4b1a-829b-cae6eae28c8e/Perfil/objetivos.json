@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "activos": [
+    "desarrollar aplicaciones reales",
+    "construir negocios digitales",
+    "automatizar tareas",
+    "construir un segundo cerebro local"
+  ],
+  "peso": { "construir un segundo cerebro local": 1.0, "automatizar tareas": 0.9 },
+  "actualizado": ""
+}

@@ -1,0 +1,4 @@
+# Nucleo
+numpy>=1.26,<3
+# MCP: la 2.x renombro FastMCP a MCPServer. mcp_server.py ya usa la ruta nueva.
+mcp>=2.0,<3
