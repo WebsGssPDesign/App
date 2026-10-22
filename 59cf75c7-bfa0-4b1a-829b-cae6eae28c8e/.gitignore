@@ -1,0 +1,58 @@
+# ------------------------------------------------------------------
+# .gitignore del repo 59cf75c7-bfa0-4b1a-829b-cae6eae28c8e (memoria_vectorial)
+# Regla clave: el indice vectorial NO se sube (pesa +200 MB). Vive en
+# <boveda>/.memoria/indice.sqlite y se reconstruye con:
+#   python memoria_vectorial/indexer.py --sync-forzar
+# ------------------------------------------------------------------
+
+# Indices y estado local del pipeline (pesados / mutables entre procesos)
+.memoria/
+**/.memoria/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Copias de seguridad del escritor y temporales (no van a git)
+*.bak
+*.tmp
+
+# Logs del pipeline (rotan; ver PARCHES/iniciar.ps1.md §8)
+*.log
+Sistema/pipeline.log*
+Sistema/auditoria.jsonl
+Sistema/heartbeat.json
+Sistema/incidencias.json
+Sistema/metricas.jsonl
+Sistema/eventos.jsonl
+Sistema/descartes.jsonl
+
+# Obsidian (workspace local, no conocimiento)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# Scaffolding de IA local
+.claude/
+.cursor/
+
+# SO
+Thumbs.db
+Desktop.ini
+.DS_Store
