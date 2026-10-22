@@ -227,10 +227,21 @@ def seccion(nombre: str) -> dict:
 def origen(clave: str) -> str:
     if _env_de(clave) is not None:
         return "env"
-    crudo: Any = cargar()
+    # Se mira el JSON crudo (sin fusionar con DEFAULTS): una clave que solo
+    # esta en DEFAULTS es "default", no "reglas.json".
+    datos: Any = {}
+    ruta = ruta_reglas()
+    try:
+        with open(ruta, "r", encoding="utf-8") as f:
+            crudo_json = json.load(f)
+        if isinstance(crudo_json, dict):
+            datos = crudo_json
+    except (OSError, json.JSONDecodeError):
+        datos = {}
+    valor: Any = datos
     for parte in clave.split("."):
-        if isinstance(crudo, dict) and parte in crudo:
-            crudo = crudo[parte]
+        if isinstance(valor, dict) and parte in valor:
+            valor = valor[parte]
         else:
             return "default"
     return "reglas.json"
