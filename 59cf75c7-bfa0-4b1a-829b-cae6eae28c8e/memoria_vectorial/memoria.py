@@ -148,6 +148,19 @@ def _ruta_ignorada(rel: str) -> bool:
 
 # ------------------------------------------------------------------ sqlite
 def _crear_esquema(conn: sqlite3.Connection) -> None:
+    # Migracion: indices antiguos (esqueleto corrupto) tenian chunks sin file_id.
+    # El indice vectorial es reproducible: se reconstruye desde cero (contadores se conserva).
+    try:
+        cols = [r[1] for r in conn.execute("PRAGMA table_info(chunks)").fetchall()]
+    except sqlite3.Error:
+        cols = []
+    if cols and "file_id" not in cols:
+        conn.executescript("DROP TABLE IF EXISTS chunks_fts;\n"
+                           "DROP TABLE IF EXISTS chunks;\n"
+                           "DROP TABLE IF EXISTS files;")
+        # los indices huérfanos de las tablas viejas no deben interferir
+        for idx in ("idx_chunks_file", "idx_chunks_ruta"):
+            conn.execute(f"DROP INDEX IF EXISTS {idx}")
     conn.executescript(
         """
         CREATE TABLE IF NOT EXISTS files(
@@ -189,7 +202,26 @@ def _crear_esquema(conn: sqlite3.Connection) -> None:
         """
     )
     # PARCHES §2: contadores sobreviven a _wipe (que solo borra files/chunks/chunks_fts/meta)
-    conn.execute("CREATE TABLE IF NOT EXISTS contadores (k TEXT PRIMARY KEY, v INTEGER, ts REAL)")
+    cols_ctr = [r[1] for r in conn.execute("PRAGMA table_info(contadores)").fetchall()]
+    if cols_ctr and set(cols_ctr) != {"k", "v", "ts"}:
+        # esquema del esqueleto corrupto (clave/valor): se migra a k/v/ts conservando datos
+        try:
+            antiguos = conn.execute(
+                f"SELECT {cols_ctr[0]}, {cols_ctr[1]} FROM contadores").fetchall()
+        except sqlite3.Error:
+            antiguos = []
+        conn.execute("DROP TABLE contadores")
+        cols_ctr = []
+        with conn:
+            conn.execute("CREATE TABLE contadores (k TEXT PRIMARY KEY, v INTEGER, ts REAL)")
+            for fila in antiguos:
+                try:
+                    conn.execute("INSERT OR REPLACE INTO contadores(k, v, ts) VALUES(?,?,?)",
+                                 (str(fila[0]), int(fila[1]), time.time()))
+                except (TypeError, ValueError):
+                    continue
+    if not cols_ctr:
+        conn.execute("CREATE TABLE IF NOT EXISTS contadores (k TEXT PRIMARY KEY, v INTEGER, ts REAL)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_contadores_ts ON contadores(ts)")
 
 
@@ -220,10 +252,17 @@ def _fijar_documento(conn: sqlite3.Connection) -> None:
 
 def _wipe(conn: sqlite3.Connection) -> None:
     """Vacia el indice vectorial. NO toca `contadores`: son del sistema, no del indice."""
-    conn.execute("DELETE FROM chunks_fts")
+    # Orden obligatorio: DELETE FROM chunks PRIMERO (el disparador chunks_ad limpia
+    # chunks_fts fila a fila). Borrar chunks_fts antes deja el indice FTS inconsistente
+    # y el siguiente DELETE falla con "database disk image is malformed".
     conn.execute("DELETE FROM chunks")
     conn.execute("DELETE FROM files")
     conn.execute("DELETE FROM meta")
+    with contextlib.suppress(sqlite3.Error):
+        conn.execute("DELETE FROM chunks_fts")  # red de seguridad por si quedara algo
+    # Reinicia el contador AUTOINCREMENT de chunks (evita rowids huerfanos en fts).
+    with contextlib.suppress(sqlite3.Error):
+        conn.execute("DELETE FROM sqlite_sequence WHERE name='chunks'")
 
 
 # -------------------------------------------------------------- locks (§3)
