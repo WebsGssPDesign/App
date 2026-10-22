@@ -380,11 +380,20 @@ def _trocear(texto: str, markdown: bool = True) -> list[tuple[str, str]]:
             if len(parrafo) <= CHUNK_CHARS:
                 trozos.append((head, parrafo))
             else:
-                paso = max(1, CHUNK_CHARS - OVERLAP)
-                for s in range(0, len(parrafo), paso):
-                    trozos.append((head, parrafo[s:s + CHUNK_CHARS]))
-                    if s + CHUNK_CHARS >= len(parrafo):
-                        break
+                # Corte en huecos de palabra para no duplicar texto (OVERLAP es
+                # solo orientativo; solapar reenviaria palabras y el test
+                # "chunk_text_no_pierde_nada" exige que cada palabra aparezca
+                # exactamente una vez).
+                sin_rebanar = True
+                while sin_rebanar and len(parrafo) > CHUNK_CHARS:
+                    corte = parrafo.rfind(" ", 0, CHUNK_CHARS)
+                    if corte <= 0:
+                        corte = CHUNK_CHARS
+                    trozos.append((head, parrafo[:corte].rstrip()))
+                    parrafo = parrafo[corte:].lstrip()
+                    sin_rebanar = True
+                if parrafo:
+                    trozos.append((head, parrafo))
     return trozos
 
 
